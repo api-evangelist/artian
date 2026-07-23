@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://artian.ai/product
+status: not-published
+server: null
+tools: []
+findings:
+  vendor_claims_mcp_support: true
+  evidence: 'Enterprise Checklist on https://artian.ai/product lists "REST and MCP
+    Support" among AI model and agent interoperability capabilities'
+  hosted_remote_server: none-found
+  probed:
+  - https://api.artian.ai/ (DNS did not resolve)
+  - https://developer.artian.ai/ (DNS did not resolve)
+  - https://docs.artian.ai/ (access-gated, no MCP endpoint discoverable)
+notes: >-
+  Artian's platform is deployed on-prem or into a customer VPC, and the product page
+  claims MCP support as a capability of that deployed installation. There is no
+  publicly hosted or remote Artian MCP server, and no OpenAPI exists from which to
+  derive a candidate tool list. Recorded for a later pass; deliberately NOT wired as
+  a `MCPServer` pointer in apis.yml, because no MCP server is publicly available.

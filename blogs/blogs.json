@@ -1,0 +1,21 @@
+{
+  "repo": "artian",
+  "feeds": [
+    {
+      "source": "https://docs.artian.ai/",
+      "feed_url": "https://docs.artian.ai/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://artian.ai/blog",
+      "feed_url": "https://artian.ai/blog?format=rss",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}

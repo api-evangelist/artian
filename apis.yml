@@ -1,7 +1,28 @@
 aid: artian
 name: Artian
-description: Artian is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Artian AI builds enterprise-grade agentic AI systems for financial services,
+  letting banks, brokerages, insurers and other regulated institutions turn complex,
+  business-critical workflows into autonomous multi-agent operations with humans fully
+  in control. The platform pairs an AI Agent Builder and autonomous planner with domain-specific
+  Workflow Agents, and ships governance as a first-class feature - end-to-end data
+  lineage, model risk management, immutable audit logs, in-band policy guardrails and
+  circuit breakers - so agents can operate safely inside strict regulatory and data-residency
+  boundaries. Artian deploys on-prem or into a customer VPC on Kubernetes rather than
+  as a public multi-tenant service, and interoperates via REST, MCP and A2A. Founded
+  in 2023 and headquartered in New York, it is backed by Anthemis, Foxe Capital, Work-Bench
+  and Wormhole Capital.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://static1.squarespace.com/static/64a501cd597afc605cffd0ee/t/69b62cacafc089273c1e18e4/1773546668817/Artian-Social-Light.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/artian/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +32,54 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Agentic AI
+- Financial Services
+- Enterprise Software
+- Workflow Automation
+- AI Governance
+- Model Risk Management
+- Insurance
 apis: []
+x-enrichment:
+  date: '2026-07-19'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/artian-domain-security.yml
+- type: Website
+  url: https://artian.ai/
+- type: Documentation
+  name: Artian documentation (access-gated)
+  url: https://docs.artian.ai/
+- type: Blog
+  url: https://artian.ai/blog
+- type: BlogRSS
+  url: https://artian.ai/blog?format=rss
+- type: Support
+  name: Contact Artian
+  url: https://artian.ai/contact
+- type: TermsOfService
+  url: https://artian.ai/terms
+- type: PrivacyPolicy
+  url: https://artian.ai/privacy
+- type: TrustCenter
+  name: Artian Trust Center (Vanta)
+  url: https://trust.artian.ai/
+- type: Conformance
+  name: Standards and protocol conformance
+  url: conformance/artian-conformance.yml
+- type: WellKnown
+  name: Well-known discovery probe
+  url: well-known/artian-well-known.yml
+- type: LLMsTxt
+  url: llms/artian-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

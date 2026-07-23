@@ -1,0 +1,46 @@
+generated: '2026-07-19'
+method: searched
+source: https://artian.ai/product
+notes: >-
+  Artian publishes no public API and no OpenAPI, so nothing here is derived from a
+  specification. Every entry below is a capability the vendor claims on its public
+  product page for the platform as deployed into a customer's own environment
+  (on-prem or customer VPC). These are vendor claims, not independently verified
+  conformance, and they describe the deployed product surface rather than a
+  publicly reachable API.
+standards:
+- id: mcp
+  name: Model Context Protocol
+  conforms: true
+  verified: vendor-claim
+  evidence: 'Enterprise Checklist on https://artian.ai/product lists "REST and MCP Support"'
+- id: a2a
+  name: Agent2Agent Protocol
+  conforms: true
+  verified: vendor-claim
+  evidence: 'Enterprise Checklist on https://artian.ai/product lists "A2A Protocol Support"'
+- id: rest
+  name: REST
+  conforms: true
+  verified: vendor-claim
+  evidence: 'Enterprise Checklist on https://artian.ai/product lists "REST and MCP Support"
+    and "API and CLI Availability"'
+- id: oauth2
+  conforms: unknown
+  evidence: no public specification or authentication documentation is reachable
+- id: openapi
+  conforms: false
+  evidence: no OpenAPI or Swagger document found on artian.ai or docs.artian.ai
+- id: rfc9457-problem-details
+  conforms: unknown
+  evidence: no public specification or error reference is reachable
+compliance:
+  program_published: unverified
+  trust_center: https://trust.artian.ai/
+  certifications: []
+  notes: >-
+    A real Vanta-hosted trust center exists at trust.artian.ai, but its contents are
+    rendered client-side and the Vanta report API requires authorization, so no named
+    certification (SOC 2, ISO 27001, etc.) could be verified from public fetches. No
+    certification is asserted here and no Compliance pointer is wired, pending a
+    render-capable pass.

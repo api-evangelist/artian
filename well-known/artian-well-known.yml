@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of artian.ai and docs.artian.ai
+notes: >-
+  No /.well-known/ documents are published. Note that docs.artian.ai is a Mintlify
+  single-page app that returns HTTP 200 with an identical 40,082-byte application
+  shell for every unknown path (a soft 404), so its 200 responses below are NOT real
+  documents - each was byte-compared against the shell and confirmed to be the shell.
+  Recorded as absent.
+hosts:
+- host: https://artian.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://docs.artian.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    soft_404: true
+    evidence: identical 40082-byte SPA shell
+  - path: /.well-known/openid-configuration
+    status: 200
+    soft_404: true
+    evidence: identical 40082-byte SPA shell
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    soft_404: true
+    evidence: identical 40082-byte SPA shell
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    soft_404: true
+    evidence: identical 40082-byte SPA shell
+documents_found: 0
