@@ -11,6 +11,17 @@ description: Artian AI builds enterprise-grade agentic AI systems for financial 
   as a public multi-tenant service, and interoperates via REST, MCP and A2A. Founded
   in 2023 and headquartered in New York, it is backed by Anthemis, Foxe Capital, Work-Bench
   and Wormhole Capital.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
