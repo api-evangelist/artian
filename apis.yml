@@ -52,10 +52,9 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic AI
-- Financial-Services
+- Financial Services
 - Enterprise Software
-- Workflow-Automation
+- Workflow Automation
 - AI Governance
 - Model Risk Management
 - Insurance
@@ -70,6 +69,8 @@ tags_raw:
 - AI Governance
 - Model Risk Management
 - Insurance
+- Financial-Services
+- Workflow-Automation
 apis: []
 x-enrichment:
   date: '2026-07-19'
